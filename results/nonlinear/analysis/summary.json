@@ -1,0 +1,16 @@
+{
+  "full_budget_integrated_results": 24,
+  "paired_full_budget_comparisons": 12,
+  "matched_validation_pairs": 4,
+  "requested_match_targets": 48,
+  "maximum_decomposition_identity_error": 3.857591329703425e-16,
+  "diagnostic_coverage_issue_count": 0,
+  "outputs": [
+    "analysis/final_aggregate.csv",
+    "analysis/paired_final_comparison.csv",
+    "analysis/matched_validation_selected_test_comparison.csv",
+    "analysis/directional_first_observed_half_error.csv",
+    "analysis/learning_curves.png",
+    "analysis/linear_and_nonlinear_components.png"
+  ]
+}

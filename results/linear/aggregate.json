@@ -1,0 +1,667 @@
+{
+  "completed_cases": 450,
+  "expected_cases": 450,
+  "complete": true,
+  "missing_configurations": 0,
+  "unexpected_configurations": 0,
+  "refinement_passed": 450,
+  "study_memberships": {
+    "dimension": 36,
+    "spectrum_width": 162,
+    "initialization_scale": 144,
+    "initialization_geometry": 84,
+    "matched_conditioning": 48,
+    "two_band_size": 12
+  },
+  "seeds": [
+    17,
+    43,
+    97
+  ],
+  "sign_counts": [
+    {
+      "study": "dimension",
+      "epsilon": 0.5,
+      "cases": 36,
+      "positive": 36
+    },
+    {
+      "study": "dimension",
+      "epsilon": 0.1,
+      "cases": 36,
+      "positive": 36
+    },
+    {
+      "study": "dimension",
+      "epsilon": 0.01,
+      "cases": 36,
+      "positive": 36
+    },
+    {
+      "study": "dimension",
+      "epsilon": 0.001,
+      "cases": 36,
+      "positive": 36
+    },
+    {
+      "study": "dimension",
+      "epsilon": 0.0001,
+      "cases": 36,
+      "positive": 36
+    },
+    {
+      "study": "initialization_geometry",
+      "epsilon": 0.5,
+      "cases": 84,
+      "positive": 72,
+      "analytic_tie": 12
+    },
+    {
+      "study": "initialization_geometry",
+      "epsilon": 0.1,
+      "cases": 84,
+      "positive": 72,
+      "analytic_tie": 12
+    },
+    {
+      "study": "initialization_geometry",
+      "epsilon": 0.01,
+      "cases": 84,
+      "positive": 72,
+      "analytic_tie": 12
+    },
+    {
+      "study": "initialization_geometry",
+      "epsilon": 0.001,
+      "cases": 84,
+      "positive": 59,
+      "analytic_tie": 12,
+      "unresolved": 13
+    },
+    {
+      "study": "initialization_geometry",
+      "epsilon": 0.0001,
+      "cases": 84,
+      "positive": 49,
+      "unresolved": 23,
+      "analytic_tie": 12
+    },
+    {
+      "study": "initialization_scale",
+      "epsilon": 0.5,
+      "cases": 144,
+      "positive": 144
+    },
+    {
+      "study": "initialization_scale",
+      "epsilon": 0.1,
+      "cases": 144,
+      "positive": 144
+    },
+    {
+      "study": "initialization_scale",
+      "epsilon": 0.01,
+      "cases": 144,
+      "positive": 140,
+      "negative": 4
+    },
+    {
+      "study": "initialization_scale",
+      "epsilon": 0.001,
+      "cases": 144,
+      "positive": 134,
+      "negative": 10
+    },
+    {
+      "study": "initialization_scale",
+      "epsilon": 0.0001,
+      "cases": 144,
+      "positive": 121,
+      "negative": 14,
+      "unresolved": 9
+    },
+    {
+      "study": "matched_conditioning",
+      "epsilon": 0.5,
+      "cases": 48,
+      "positive": 48
+    },
+    {
+      "study": "matched_conditioning",
+      "epsilon": 0.1,
+      "cases": 48,
+      "positive": 48
+    },
+    {
+      "study": "matched_conditioning",
+      "epsilon": 0.01,
+      "cases": 48,
+      "positive": 48
+    },
+    {
+      "study": "matched_conditioning",
+      "epsilon": 0.001,
+      "cases": 48,
+      "positive": 48
+    },
+    {
+      "study": "matched_conditioning",
+      "epsilon": 0.0001,
+      "cases": 48,
+      "positive": 44,
+      "unresolved": 4
+    },
+    {
+      "study": "spectrum_width",
+      "epsilon": 0.5,
+      "cases": 162,
+      "positive": 162
+    },
+    {
+      "study": "spectrum_width",
+      "epsilon": 0.1,
+      "cases": 162,
+      "positive": 162
+    },
+    {
+      "study": "spectrum_width",
+      "epsilon": 0.01,
+      "cases": 162,
+      "positive": 157,
+      "negative": 5
+    },
+    {
+      "study": "spectrum_width",
+      "epsilon": 0.001,
+      "cases": 162,
+      "positive": 141,
+      "negative": 20,
+      "unresolved": 1
+    },
+    {
+      "study": "spectrum_width",
+      "epsilon": 0.0001,
+      "cases": 162,
+      "positive": 131,
+      "negative": 25,
+      "unresolved": 6
+    },
+    {
+      "study": "two_band_size",
+      "epsilon": 0.5,
+      "cases": 12,
+      "positive": 12
+    },
+    {
+      "study": "two_band_size",
+      "epsilon": 0.1,
+      "cases": 12,
+      "positive": 12
+    },
+    {
+      "study": "two_band_size",
+      "epsilon": 0.01,
+      "cases": 12,
+      "positive": 12
+    },
+    {
+      "study": "two_band_size",
+      "epsilon": 0.001,
+      "cases": 12,
+      "positive": 12
+    },
+    {
+      "study": "two_band_size",
+      "epsilon": 0.0001,
+      "cases": 12,
+      "unresolved": 7,
+      "positive": 5
+    }
+  ],
+  "restart_coverage": [
+    {
+      "study": "dimension",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 36,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "dimension",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 36,
+      "any_eligible": 36,
+      "any_useful": 27
+    },
+    {
+      "study": "dimension",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 36,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "dimension",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 36,
+      "any_eligible": 36,
+      "any_useful": 27
+    },
+    {
+      "study": "dimension",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 36,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "dimension",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 36,
+      "any_eligible": 36,
+      "any_useful": 27
+    },
+    {
+      "study": "dimension",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 36,
+      "any_eligible": 5,
+      "any_useful": 5
+    },
+    {
+      "study": "dimension",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 36,
+      "any_eligible": 36,
+      "any_useful": 27
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 84,
+      "any_eligible": 22,
+      "any_useful": 22
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 84,
+      "any_eligible": 72,
+      "any_useful": 63
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 84,
+      "any_eligible": 48,
+      "any_useful": 48
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 84,
+      "any_eligible": 72,
+      "any_useful": 66
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 84,
+      "any_eligible": 60,
+      "any_useful": 60
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 84,
+      "any_eligible": 72,
+      "any_useful": 72
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 84,
+      "any_eligible": 72,
+      "any_useful": 72
+    },
+    {
+      "study": "initialization_geometry",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 84,
+      "any_eligible": 72,
+      "any_useful": 72
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 144,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 144,
+      "any_eligible": 144,
+      "any_useful": 108
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 144,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 144,
+      "any_eligible": 144,
+      "any_useful": 108
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 144,
+      "any_eligible": 3,
+      "any_useful": 3
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 144,
+      "any_eligible": 144,
+      "any_useful": 108
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 144,
+      "any_eligible": 49,
+      "any_useful": 49
+    },
+    {
+      "study": "initialization_scale",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 144,
+      "any_eligible": 144,
+      "any_useful": 128
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 48,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 48,
+      "any_eligible": 48,
+      "any_useful": 36
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 48,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 48,
+      "any_eligible": 48,
+      "any_useful": 36
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 48,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 48,
+      "any_eligible": 48,
+      "any_useful": 36
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 48,
+      "any_eligible": 4,
+      "any_useful": 4
+    },
+    {
+      "study": "matched_conditioning",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 48,
+      "any_eligible": 48,
+      "any_useful": 41
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 162,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 162,
+      "any_eligible": 162,
+      "any_useful": 126
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 162,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 162,
+      "any_eligible": 162,
+      "any_useful": 126
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 162,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 162,
+      "any_eligible": 162,
+      "any_useful": 126
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 162,
+      "any_eligible": 43,
+      "any_useful": 43
+    },
+    {
+      "study": "spectrum_width",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 162,
+      "any_eligible": 162,
+      "any_useful": 156
+    },
+    {
+      "study": "two_band_size",
+      "restart": 1.0,
+      "threshold": "gamma",
+      "cases": 12,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 1.0,
+      "threshold": "chi",
+      "cases": 12,
+      "any_eligible": 12,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.5,
+      "threshold": "gamma",
+      "cases": 12,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.5,
+      "threshold": "chi",
+      "cases": 12,
+      "any_eligible": 12,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.1,
+      "threshold": "gamma",
+      "cases": 12,
+      "any_eligible": 0,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.1,
+      "threshold": "chi",
+      "cases": 12,
+      "any_eligible": 12,
+      "any_useful": 0
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.01,
+      "threshold": "gamma",
+      "cases": 12,
+      "any_eligible": 2,
+      "any_useful": 2
+    },
+    {
+      "study": "two_band_size",
+      "restart": 0.01,
+      "threshold": "chi",
+      "cases": 12,
+      "any_eligible": 12,
+      "any_useful": 4
+    }
+  ],
+  "certificate_maxima": {
+    "gamma_max_violation": 1.4808004857296692e-07,
+    "gamma_max_monotonicity_increase": 2.1210596399292676e-31,
+    "chi_gradient_max_violation": 3.275960943591221e-08,
+    "chi_loss_max_violation": 3.734158305429906e-09
+  },
+  "maximum_geometry_GD_fraction_range": 5.551115123125783e-16,
+  "analytic_rank_one_maximum_allocation_deviation": 0.0002802777069486617,
+  "empirical_sign_margin_factor": 2.0,
+  "max_directional_hitting_lower_violation": 0.0,
+  "max_directional_hitting_upper_violation": 0.0,
+  "completion_upper_over_numerical_range": [
+    1.0002151646941602,
+    8.293954088490619
+  ],
+  "numerical_over_completion_lower_range": [
+    1.00048828125,
+    1.3124999999999998
+  ],
+  "numerical_note": "Adjacent-grid differences are empirical uncertainty indicators, not rigorous error bounds; no CIs from three seeds.",
+  "theory": "output/diffusion_wp_general_restart/pipeline_diffusion.tex; modal-envelope and spectral-bias theorems",
+  "source_sha256": "4ad250b2a8f79d382a3bd6e84969cdfb39534a230c45e644289c189ec3627ce6",
+  "unique_case_sign_counts": [
+    {
+      "epsilon": 0.5,
+      "cases": 450,
+      "positive": 438,
+      "analytic_tie": 12
+    },
+    {
+      "epsilon": 0.1,
+      "cases": 450,
+      "positive": 438,
+      "analytic_tie": 12
+    },
+    {
+      "epsilon": 0.01,
+      "cases": 450,
+      "positive": 429,
+      "analytic_tie": 12,
+      "negative": 9
+    },
+    {
+      "epsilon": 0.001,
+      "cases": 450,
+      "positive": 397,
+      "analytic_tie": 12,
+      "negative": 27,
+      "unresolved": 14
+    },
+    {
+      "epsilon": 0.0001,
+      "cases": 450,
+      "positive": 357,
+      "unresolved": 46,
+      "analytic_tie": 12,
+      "negative": 35
+    }
+  ],
+  "report_source_sha256": "6fefc5a3569981dc6865cb0fa52a670d43ebdfa61c0599b85da06708a4f94144"
+}

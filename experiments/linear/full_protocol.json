@@ -1,0 +1,7287 @@
+{
+  "version": 1,
+  "name": "full_linear_v1",
+  "unique_cases": 450,
+  "study_memberships": {
+    "spectrum_width": 162,
+    "initialization_scale": 144,
+    "initialization_geometry": 84,
+    "matched_conditioning": 48,
+    "dimension": 36,
+    "two_band_size": 12
+  },
+  "seeds": [
+    17,
+    43,
+    97
+  ],
+  "case_specs": [
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 17,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 17,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 17,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 32,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 64,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 128,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 4,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 8,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 17,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 24,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 43,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 43,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 43,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 32,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 64,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 128,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 4,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 8,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 43,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 24,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 97,
+      "family": "lognormal",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.25,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 0.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.5,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 97,
+      "family": "powerlaw",
+      "parameter": 1.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 1.0986122886681098,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 2.302585092994046,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 6.907755278982137,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 97,
+      "family": "geometric",
+      "parameter": 4.605170185988092,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 0,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 2.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 5.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width",
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 100.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "spectrum_width"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.1,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.1,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 1.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 3.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 2.0,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_scale"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.2,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.5,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.8,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.95,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 0.99,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "controlled_correlation",
+      "correlation": 1.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "initialization_geometry"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 2.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 5.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 10.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": 20.0,
+      "matched_condition": true,
+      "study_labels": [
+        "matched_conditioning"
+      ]
+    },
+    {
+      "d": 64,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 32,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 128,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 64,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 256,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 1.0,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 128,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "dimension"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 4,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 8,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 16,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    },
+    {
+      "d": 32,
+      "seed": 97,
+      "family": "two_band",
+      "parameter": 20.0,
+      "sigma": 0.3,
+      "kind": "gaussian_w0",
+      "correlation": 0.0,
+      "init_scale": 0.5,
+      "band_size": 24,
+      "target_kappa_c": null,
+      "matched_condition": false,
+      "study_labels": [
+        "two_band_size"
+      ]
+    }
+  ],
+  "estimand": "Continuous population GD versus continuous compact-polar flow; matched relative excess loss",
+  "coefficients": {
+    "eta_gd": 1.0,
+    "eta_muon": 1.0
+  },
+  "matched_epsilons": [
+    0.5,
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "base_resolution": {
+    "d_below_256": 512,
+    "d_at_least_256": 256
+  },
+  "maximum_refinement_levels": 8,
+  "gates": {
+    "max_modal_initial_normalized": 0.001,
+    "max_matched_high_fraction_difference": 0.01,
+    "extinction_difference_over_initial_opnorm": 0.003
+  },
+  "high_band": "two_band: entire largest-eigenvalue eigenspace; other families: c >= median(c), retaining ties",
+  "historical_reuse": "Exact source, version, specification, eigenvalues, Q, W0 and R0 verified; recompute the penultimate grid and apply the expanded epsilon gate",
+  "reporting": {
+    "rho_endpoints": "rho=0 and rho=1 are analytic/rank-boundary numerical controls, not generic full-rank cases",
+    "geometry_seed_interpretation": "Deterministic spectra with fixed Gram matrix have identical observables across rotation seeds; these are reproducibility checks",
+    "precision": "Observed adjacent-grid discrepancies, not certified continuous-time error bounds; differences below their measured numerical uncertainty are unresolved",
+    "failures": "Retain all failure records and failed refinement gates; do not silently omit cases",
+    "scope": "No discrete-optimizer speed, learning-rate fairness, or nonlinear generalization claim"
+  }
+}

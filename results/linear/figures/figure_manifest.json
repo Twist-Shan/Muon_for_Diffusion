@@ -1,0 +1,26 @@
+{
+  "baseline_cases": {
+    "lognormal": [
+      "lognormal_d32_s17_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_721818822b31",
+      "lognormal_d32_s43_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_91b7a2b6cc36",
+      "lognormal_d32_s97_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_d3f0de719690"
+    ],
+    "powerlaw": [
+      "powerlaw_d32_s17_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_c08117aa5601",
+      "powerlaw_d32_s43_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_fdba0f6e729e",
+      "powerlaw_d32_s97_noise1_p1_gaussian_w0_rho0_a0.5_m0_kNone_d76275d98cae"
+    ],
+    "geometric": [
+      "geometric_d32_s17_noise1_p4.6051702_gaussian_w0_rho0_a0.5_m0_kNone_bde7f8b54b21",
+      "geometric_d32_s43_noise1_p4.6051702_gaussian_w0_rho0_a0.5_m0_kNone_5a75892b5166",
+      "geometric_d32_s97_noise1_p4.6051702_gaussian_w0_rho0_a0.5_m0_kNone_8a774bc6355b"
+    ],
+    "two_band": [
+      "two_band_d32_s17_noise1_p20_gaussian_w0_rho0_a0.5_m16_kNone_1ecfab317e0f",
+      "two_band_d32_s43_noise1_p20_gaussian_w0_rho0_a0.5_m16_kNone_8fe089fc55cd",
+      "two_band_d32_s97_noise1_p20_gaussian_w0_rho0_a0.5_m16_kNone_e891a67d6321"
+    ]
+  },
+  "description": "Six PNG/PDF pairs; cross-seed means and min-max ranges at fixed configurations; no confidence intervals",
+  "analysis_source_sha256": "6fefc5a3569981dc6865cb0fa52a670d43ebdfa61c0599b85da06708a4f94144"
+}

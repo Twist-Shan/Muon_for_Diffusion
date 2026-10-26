@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "seed": 1729,
+  "dtype": "float64",
+  "thread_limit": 1,
+  "roundoff_check_tolerance": 2e-10,
+  "reference_methods": "Analytic commuting/SVD solutions; independent scalar quad+brentq; direct DOP853 on R.",
+  "checks": {
+    "commuting_orthogonal_columns": {
+      "passed": true,
+      "max_initial_normalized_modal_error": 3.0134624954111394e-14,
+      "exact_completion_time": 1.7499999999999998,
+      "numerical_completion_time": 1.7500000000000004,
+      "includes_initially_absorbed_direction": true,
+      "checks": {
+        "finite_observables": true,
+        "rank_increase": 0,
+        "modal_increase": 1.4252651744731583e-28,
+        "relative_loss_increase": 0.0,
+        "relative_step_balance_error": 1.5872071779658278e-15,
+        "terminal_q_exactly_zero": true,
+        "h": 0.006835937500000002,
+        "steps": 256,
+        "passed": true
+      }
+    },
+    "isotropic_svd_solution": {
+      "passed": true,
+      "max_initial_normalized_modal_error": 1.9754882137248796e-14,
+      "max_initial_normalized_g_error": 1.1923326800643633e-14,
+      "checks": {
+        "finite_observables": true,
+        "rank_increase": 0,
+        "modal_increase": 0.0,
+        "relative_loss_increase": 0.0,
+        "relative_step_balance_error": 2.252836333019065e-15,
+        "terminal_q_exactly_zero": true,
+        "h": 0.004533380555477338,
+        "steps": 257,
+        "passed": true
+      }
+    },
+    "rank_one_scalar_quadrature": {
+      "passed": true,
+      "exact_completion_time": 2.5004187687321986,
+      "quadrature_reported_absolute_error": 1.7089066568519897e-13,
+      "modal_error_strictly_decreases": true,
+      "modal_error_refinement_ratios": [
+        1.9898206173623105,
+        1.9948392409138882
+      ],
+      "finest_modal_error_tolerance": 0.01,
+      "resolutions": [
+        {
+          "resolution": 256,
+          "max_initial_normalized_modal_error": 0.008067803739390589,
+          "max_initial_normalized_loss_error": 0.0007366024632158348,
+          "max_initial_normalized_g_error": 0.0009520855996109047,
+          "numerical_completion_time": 2.4947823436034593,
+          "absolute_completion_time_error": 0.0056364251287392975,
+          "checks": {
+            "finite_observables": true,
+            "rank_increase": 0,
+            "modal_increase": 0.0,
+            "relative_loss_increase": 0.0,
+            "relative_step_balance_error": 3.5273330253904648e-15,
+            "terminal_q_exactly_zero": true,
+            "h": 0.008343753657536652,
+            "steps": 299,
+            "passed": true
+          }
+        },
+        {
+          "resolution": 512,
+          "max_initial_normalized_modal_error": 0.004054538217663661,
+          "max_initial_normalized_loss_error": 0.00036949388385468907,
+          "max_initial_normalized_g_error": 0.00047755288472035433,
+          "numerical_completion_time": 2.4989542204322275,
+          "absolute_completion_time_error": 0.0014645482999711135,
+          "checks": {
+            "finite_observables": true,
+            "rank_increase": 0,
+            "modal_increase": 0.0,
+            "relative_loss_increase": 0.0,
+            "relative_step_balance_error": 3.8656213628149946e-15,
+            "terminal_q_exactly_zero": true,
+            "h": 0.004171876828768326,
+            "steps": 599,
+            "passed": true
+          }
+        },
+        {
+          "resolution": 1024,
+          "max_initial_normalized_modal_error": 0.0020325137657740133,
+          "max_initial_normalized_loss_error": 0.0001850466969474766,
+          "max_initial_normalized_g_error": 0.00023916281286753943,
+          "numerical_completion_time": 2.4989542204322275,
+          "absolute_completion_time_error": 0.0014645482999711135,
+          "checks": {
+            "finite_observables": true,
+            "rank_increase": 0,
+            "modal_increase": 0.0,
+            "relative_loss_increase": 0.0,
+            "relative_step_balance_error": 2.3212846513070945e-15,
+            "terminal_q_exactly_zero": true,
+            "h": 0.002085938414384163,
+            "steps": 1198,
+            "passed": true
+          }
+        }
+      ],
+      "completion_time_note": "Grid arrival errors are reported, not required to decrease monotonically."
+    },
+    "direct_R_before_first_rank_loss": {
+      "passed": true,
+      "direct_solver_success": true,
+      "direct_solver_message": "The solver successfully reached the end of the integration interval.",
+      "comparison_tolerance": 2e-09,
+      "exact_first_rank_loss_time": 0.20219851185635138,
+      "tested_until": 0.14153895829944596,
+      "direct_max_relative_H_error": 2.430602794988714e-15,
+      "direct_max_initial_normalized_modal_error": 1.831046704688989e-15,
+      "projected_flow_max_initial_normalized_modal_error": 2.933498910149651e-15,
+      "rhs_evaluations": 47
+    },
+    "top_singular_value_tie": {
+      "passed": true,
+      "chi0": 0.3999999999999999,
+      "expected_chi0": 0.4,
+      "absolute_error": 1.1102230246251565e-16
+    }
+  }
+}

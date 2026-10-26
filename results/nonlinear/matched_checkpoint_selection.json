@@ -1,0 +1,405 @@
+{
+  "selection_basis": "validation only, before test evaluation",
+  "pairs": [
+    {
+      "family": "lognormal",
+      "seed": 17,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6392930964611878,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 17,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.3196465482305939,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 17,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.12785861929223757,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 17,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06392930964611879,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 43,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.5947245729439601,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 43,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.29736228647198004,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 43,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.11894491458879203,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 43,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.059472457294396014,
+      "matched": true,
+      "sgd_step": 400,
+      "muon_step": 200,
+      "sgd_validation_excess": 0.0522364560558799,
+      "muon_validation_excess": 0.05140517743620876,
+      "validation_relative_gap": 0.016041403279013218
+    },
+    {
+      "family": "lognormal",
+      "seed": 97,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.5991084853412758,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 97,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.2995542426706379,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 97,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.11982169706825517,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "lognormal",
+      "seed": 97,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.059910848534127585,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 17,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6766168824578926,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 17,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.3383084412289463,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 17,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13532337649157852,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 17,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06766168824578926,
+      "matched": true,
+      "sgd_step": 200,
+      "muon_step": 100,
+      "sgd_validation_excess": 0.06567381882314294,
+      "muon_validation_excess": 0.06635155364369894,
+      "validation_relative_gap": 0.010266735974953757
+    },
+    {
+      "family": "powerlaw",
+      "seed": 43,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6466398687334731,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 43,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.32331993436673656,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 43,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.12932797374669464,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 43,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06466398687334732,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 97,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6627551115343522,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 97,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.3313775557671761,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 97,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13255102230687044,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "powerlaw",
+      "seed": 97,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06627551115343522,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 17,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6703803741911543,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 17,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.33519018709557713,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 17,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13407607483823086,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 17,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06703803741911543,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 43,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6300100438893423,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 43,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.31500502194467117,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 43,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.12600200877786846,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 43,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06300100438893423,
+      "matched": true,
+      "sgd_step": 400,
+      "muon_step": 200,
+      "sgd_validation_excess": 0.05149827704144627,
+      "muon_validation_excess": 0.05170849592354898,
+      "validation_relative_gap": 0.004073741985402617
+    },
+    {
+      "family": "geometric",
+      "seed": 97,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6529814198547683,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 97,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.32649070992738416,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 97,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13059628397095366,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "geometric",
+      "seed": 97,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06529814198547683,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 17,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6700516428791161,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 17,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.33502582143955806,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 17,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13401032857582323,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 17,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06700516428791162,
+      "matched": true,
+      "sgd_step": 400,
+      "muon_step": 200,
+      "sgd_validation_excess": 0.06072633154758478,
+      "muon_validation_excess": 0.06106883253437445,
+      "validation_relative_gap": 0.005624213233280678
+    },
+    {
+      "family": "two_band",
+      "seed": 43,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6369107886530401,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 43,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.31845539432652004,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 43,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.12738215773060801,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 43,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06369107886530401,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 97,
+      "relative_target": 0.5,
+      "target_validation_excess": 0.6584066193900071,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 97,
+      "relative_target": 0.25,
+      "target_validation_excess": 0.32920330969500355,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 97,
+      "relative_target": 0.1,
+      "target_validation_excess": 0.13168132387800144,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    },
+    {
+      "family": "two_band",
+      "seed": 97,
+      "relative_target": 0.05,
+      "target_validation_excess": 0.06584066193900072,
+      "matched": false,
+      "reason": "No stored validation checkpoint pair satisfies both pair and target tolerances"
+    }
+  ]
+}

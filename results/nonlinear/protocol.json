@@ -1,0 +1,86 @@
+{
+  "dimension": 128,
+  "seeds": [
+    17,
+    43,
+    97
+  ],
+  "search_seed": 137,
+  "batch_size": 1024,
+  "search_steps": 512,
+  "main_steps": 5000,
+  "validation_n": 4096,
+  "test_n": 8192,
+  "fit_n_each": 8192,
+  "fixed_test_n": 8192,
+  "fixed_sigmas": [
+    0.1,
+    1.0,
+    3.0
+  ],
+  "sgd_lrs": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "muon_lrs": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "boundary_extension_factor": 10,
+  "boundary_max_rounds": 2,
+  "aux_lr": "family_selected_sgd_lr",
+  "schedule": "constant",
+  "polar_workers": 2,
+  "recovery_interval": 100,
+  "search_budget": "same base four and maximum eight candidates per method; adaptive counts reported",
+  "checkpoint_steps": [
+    0,
+    25,
+    50,
+    100,
+    200,
+    400,
+    800,
+    1200,
+    2000,
+    3000,
+    4000,
+    5000
+  ],
+  "checkpoint_interval": 100,
+  "matched_loss_targets": [
+    0.5,
+    0.25,
+    0.1,
+    0.05
+  ],
+  "matched_pair_max_relative_gap": 0.02,
+  "matched_target_relative_tolerance": 0.2,
+  "sigma_data": 0.5,
+  "P_mean": -1.2,
+  "P_std": 1.2,
+  "polar": "CPU scipy.linalg.svd gesdd float64; tol=max(m,n)*eps64*smax",
+  "matrix_selection": "all requires_grad two-dimensional parameters; no aspect scaling",
+  "training": "fresh iid Gaussian X; true clean X targets, not Bayes teacher",
+  "dtype": "float32 forward/backward, float64 SVD and diagnostics",
+  "spectra": {
+    "lognormal": {
+      "beta": 1
+    },
+    "powerlaw": {
+      "a": 1
+    },
+    "geometric": {
+      "h": 4.605170185988092
+    },
+    "two_band": {
+      "r": 20,
+      "fraction": 0.5
+    }
+  },
+  "source_commit": "94965885b5d94a8fcba0c3b6a31b895d3eb5deee"
+}
